@@ -1,0 +1,122 @@
+div{
+    color: #ffffff;
+    text-align: center;
+    vertical-align: 50%;
+}
+
+body{
+    background: url("../images/sky.jpg");
+}
+/*设置容器内边距*/
+.container{
+    min-width: 1000px;
+    padding: 0 20px 0 20px;
+}
+/*设置网页头部样式*/
+.header{
+    z-index: 1000;
+    height: 110px;
+    background-color: #20a7c0;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow:5px 5px 5px rgba(0,0,0,.6);
+}
+/*标题*/
+.header .header_title{
+    top: -5px;
+    text-align: start;
+    padding-left: 70px;
+}
+
+.header .header_time{
+    top: 10px;
+}
+
+.header .row div{
+    margin-top: 45px;
+}
+/*定义退出按钮样式*/
+.header .btn_exit{
+    width: 82px;
+    height: 34px;
+    border: 1px solid snow;
+}
+/*网页主体样式*/
+.article{
+    min-height: 500px;
+    background-color: transparent;
+    overflow: hidden;
+}
+/*主体左部样式*/
+.article .aside{
+    background-color: gainsboro;
+    float: left;
+    width: 150px;
+    margin-left: -100%;
+    border-radius: 5px 0;
+    border-right: 1px solid grey;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+    padding-top: 40px;
+}
+
+.aside p{
+    margin: 40px 0 0 18px;
+}
+
+.aside .img-circle{
+    width: 60%;
+    height: 60%;
+}
+/*双飞翼中部容器样式*/
+.article .wrapper{
+    background-color: seashell;
+    float: left;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+
+.article .inner{
+    margin-left: 150px;
+}
+
+.article .inner div{
+    height: 80px;
+    margin-top: 80px;
+    border-radius: 5px;
+    box-shadow:5px 5px 5px rgba(0,0,0,.6);
+    background-size: 50% 70%;
+    background-position: center 10%;
+    line-height: 950%;
+}
+/*鼠标滑过按钮效果*/
+.article .inner div:hover{
+    color: grey;
+    box-shadow:2px 2px 5px 1px rgba(0,0,0,.6) inset;
+}
+
+.article .section1{
+    background: #46b8da url("../images/message.ico") no-repeat;
+}
+
+.article .section2{
+    background: #ca070a url("../images/money.ico") no-repeat;
+}
+
+.article .section3{
+    background: #3ce674 url("../images/report.ico") no-repeat;
+}
+
+.article .section4{
+    background: #1a86c0 url("../images/netword.ico") no-repeat;
+}
+
+.article .section5{
+    background: #166719 url("../images/time.ico") no-repeat;
+}
+
+.article .section6{
+    background: #ff8922 url("../images/3D_print.ico") no-repeat;
+}
